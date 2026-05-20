@@ -40,7 +40,7 @@ Currency-Converter/
 
 ## 🔗 Live Demo
 
-https://your-live-demo-link.com
+https://chinnikrishnareddy.github.io/Currency-Converter/
 
 ## ⚠️ Note
 
