@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="live_rate">
+        <i class="fa-solid fa-arrow-trend-up" id="arrow_trendup"></i>
+        <p class="live_exchange_rates">LIVE EXCHANGE RATES</p>
+    </div>
+    <div class="currency_converter">
+        <p class="heading">Currency converter</p>
+        <p class="simple_para">Enter amount and select currencies to get real-time exchange rates.</p>
+    </div>
+    <form>
+        <div class="input">
+            <p class="grey_para">Enter amount</p>
+            <input value="1" type="text"> 
+        </div>
+        <div class="dropdown">
+            <div class="from_dropdown">
+                <p class="grey_para">From</p>
+                <div class="from">
+                <img src="https://flagsapi.com/IN/flat/64.png">
+                <select name="from" class="myselect"></select>
+            </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left exchange_logo"></i>
+            <div class="to_dropdown">
+                <p class="grey_para">To</p>
+                <div class="to">
+                
+                <img src="https://flagsapi.com/US/flat/64.png">
+                <select name="to" class="myselect"></select>
+            </div>
+            </div>
+            
+        </div>
+        <p class="msg">1 INR = 80 USD </p>
+        <button>Convert</button>
+
+    </form>
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-color: #080c14;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.live_rate{
+    height: 30px;
+    width: 25%;
+    background-color: #0a212b;
+    border: 2px solid #0f3a47;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+#arrow_trendup{
+    color:#67bed9;
+    margin: 0px 10px 0px 0px;
+}
+.live_exchange_rates{
+    color:#67bed9;
+}
+.heading{
+    color: #e8edf5;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+.simple_para{
+    color: #64748b;
+    margin: 10px 0px 10px 0px;
+}
+form{
+    height: 30%;
+    width: 40%;
+    background-color: #0f1829;
+    border: 2px solid #202838;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.grey_para{
+    color: #64748b;
+
+}
+.msg{
+    color: #64748b;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+}
+.exchange_logo{
+    color: #64748b;
+    margin-top: 27px;
+}
+input{
+    height: 30px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #182339;
+    border: 2px solid #2a3449;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px 0px 10px 0px;
+    outline: none;
+}
+.dropdown{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+select{
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+}
+.myselect option{
+    background-color:#182339;
+}
+.from_dropdown{
+    display: flex;
+    flex-direction: column;
+}
+.to_dropdown{
+    display: flex;
+    flex-direction: column;
+}
+.from{
+    height: 40px;
+    width: 150px;
+    background-color: #182339;
+    border: 2px solid #2a3449;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.to{
+    height: 40px;
+    width: 150px;
+    background-color: #182339;
+    border: 2px solid #2a3449;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+button{
+    height: 40px;
+    background-color: #22d3ee;
+    color: #080c14;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
