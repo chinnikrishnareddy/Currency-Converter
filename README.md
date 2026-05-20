@@ -42,6 +42,16 @@ Currency-Converter/
 
 https://your-live-demo-link.com
 
+## ⚠️ Note
+
+This project is currently designed for **desktop screens only**.
+
+* 📌 No media queries have been used yet
+* 📱 Mobile responsiveness is not implemented
+* 💻 Best viewed on laptops/desktops
+
+Responsive design support will be added in future updates.
+
 ## 📥 Installation
 
 Clone the repository:
