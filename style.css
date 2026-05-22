@@ -147,9 +147,6 @@ button{
     .note{
         height: 60px;
         width: 80%;
-        background-color: #0f1829;
-        border: 2px solid #202838;
-        border-radius: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
