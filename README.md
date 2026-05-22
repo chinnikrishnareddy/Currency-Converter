@@ -1,4 +1,4 @@
-# Currency Converter
+p# Currency Converter
 
 A responsive and interactive **Currency Converter Web Application** built using **HTML, CSS, and JavaScript** with real-time exchange rate API integration.
 This project allows users to convert currencies instantly with live exchange rates through a clean and user-friendly interface.
